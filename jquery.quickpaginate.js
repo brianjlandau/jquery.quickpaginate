@@ -17,7 +17,7 @@
 (function($) {
   $.fn.quickpaginate = function( settings ){
   	settings = jQuery.extend({
-  		perpage: 6,
+  		perpage: 10,
   		pager : null,
   		showcounter : true,
   		prev_class : "qp_next",
