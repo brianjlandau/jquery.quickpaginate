@@ -44,8 +44,8 @@
   			items.filter(":gt("+(settings.perpage-1)+")").hide();
   			cm = settings.perpage;
   			setNav();
-  			$(document).trigger('init_finished.quickpaginate');
   		}
+  		$(document).trigger('init_finished.quickpaginate');
   	};
 	
   	var goNext = function(){
